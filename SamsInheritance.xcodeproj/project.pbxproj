@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E256A5151F8BF4002224FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E256A4151F8BF4002224FB /* UIKit.framework */; };
+		87E256A7151F8BF4002224FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E256A6151F8BF4002224FB /* Foundation.framework */; };
+		87E256A9151F8BF4002224FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E256A8151F8BF4002224FB /* CoreGraphics.framework */; };
+		87E256AF151F8BF4002224FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87E256AD151F8BF4002224FB /* InfoPlist.strings */; };
+		87E256B1151F8BF4002224FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256B0151F8BF4002224FB /* main.m */; };
+		87E256B5151F8BF4002224FB /* SamsInheritanceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256B4151F8BF4002224FB /* SamsInheritanceAppDelegate.m */; };
+		87E256B8151F8BF4002224FB /* SamsInheritanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256B7151F8BF4002224FB /* SamsInheritanceViewController.m */; };
+		87E256BB151F8BF4002224FB /* SamsInheritanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E256B9151F8BF4002224FB /* SamsInheritanceViewController.xib */; };
+		87E256C4151F8C89002224FB /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256C3151F8C89002224FB /* Character.m */; };
+		87E256C7151F8CD1002224FB /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256C6151F8CD1002224FB /* Food.m */; };
+		87E256CA151F8D10002224FB /* Liquid.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256C9151F8D10002224FB /* Liquid.m */; };
+		87E256CD151F8D47002224FB /* Diet.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256CC151F8D47002224FB /* Diet.m */; };
+		87E256D0151F8DFE002224FB /* Male.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256CF151F8DFE002224FB /* Male.m */; };
+		87E256D3151F8E0A002224FB /* Female.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E256D2151F8E0A002224FB /* Female.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87E256A0151F8BF4002224FB /* SamsInheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamsInheritance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E256A4151F8BF4002224FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87E256A6151F8BF4002224FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87E256A8151F8BF4002224FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87E256AC151F8BF4002224FB /* SamsInheritance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamsInheritance-Info.plist"; sourceTree = "<group>"; };
+		87E256AE151F8BF4002224FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87E256B0151F8BF4002224FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E256B2151F8BF4002224FB /* SamsInheritance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamsInheritance-Prefix.pch"; sourceTree = "<group>"; };
+		87E256B3151F8BF4002224FB /* SamsInheritanceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamsInheritanceAppDelegate.h; sourceTree = "<group>"; };
+		87E256B4151F8BF4002224FB /* SamsInheritanceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamsInheritanceAppDelegate.m; sourceTree = "<group>"; };
+		87E256B6151F8BF4002224FB /* SamsInheritanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamsInheritanceViewController.h; sourceTree = "<group>"; };
+		87E256B7151F8BF4002224FB /* SamsInheritanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamsInheritanceViewController.m; sourceTree = "<group>"; };
+		87E256BA151F8BF4002224FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SamsInheritanceViewController.xib; sourceTree = "<group>"; };
+		87E256C2151F8C89002224FB /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = Model/Character.h; sourceTree = "<group>"; };
+		87E256C3151F8C89002224FB /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = Model/Character.m; sourceTree = "<group>"; };
+		87E256C5151F8CD1002224FB /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = Model/Food.h; sourceTree = "<group>"; };
+		87E256C6151F8CD1002224FB /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = Model/Food.m; sourceTree = "<group>"; };
+		87E256C8151F8D10002224FB /* Liquid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Liquid.h; path = Model/Liquid.h; sourceTree = "<group>"; };
+		87E256C9151F8D10002224FB /* Liquid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Liquid.m; path = Model/Liquid.m; sourceTree = "<group>"; };
+		87E256CB151F8D47002224FB /* Diet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Diet.h; path = Model/Diet.h; sourceTree = "<group>"; };
+		87E256CC151F8D47002224FB /* Diet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Diet.m; path = Model/Diet.m; sourceTree = "<group>"; };
+		87E256CE151F8DFE002224FB /* Male.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Male.h; path = Model/Male.h; sourceTree = "<group>"; };
+		87E256CF151F8DFE002224FB /* Male.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Male.m; path = Model/Male.m; sourceTree = "<group>"; };
+		87E256D1151F8E0A002224FB /* Female.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Female.h; path = Model/Female.h; sourceTree = "<group>"; };
+		87E256D2151F8E0A002224FB /* Female.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Female.m; path = Model/Female.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E2569D151F8BF4002224FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E256A5151F8BF4002224FB /* UIKit.framework in Frameworks */,
+				87E256A7151F8BF4002224FB /* Foundation.framework in Frameworks */,
+				87E256A9151F8BF4002224FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87E25695151F8BF3002224FB = {
+			isa = PBXGroup;
+			children = (
+				87E256AA151F8BF4002224FB /* SamsInheritance */,
+				87E256A3151F8BF4002224FB /* Frameworks */,
+				87E256A1151F8BF4002224FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E256A1151F8BF4002224FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E256A0151F8BF4002224FB /* SamsInheritance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E256A3151F8BF4002224FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E256A4151F8BF4002224FB /* UIKit.framework */,
+				87E256A6151F8BF4002224FB /* Foundation.framework */,
+				87E256A8151F8BF4002224FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E256AA151F8BF4002224FB /* SamsInheritance */ = {
+			isa = PBXGroup;
+			children = (
+				87E256C1151F8C70002224FB /* Model */,
+				87E256B3151F8BF4002224FB /* SamsInheritanceAppDelegate.h */,
+				87E256B4151F8BF4002224FB /* SamsInheritanceAppDelegate.m */,
+				87E256B6151F8BF4002224FB /* SamsInheritanceViewController.h */,
+				87E256B7151F8BF4002224FB /* SamsInheritanceViewController.m */,
+				87E256B9151F8BF4002224FB /* SamsInheritanceViewController.xib */,
+				87E256AB151F8BF4002224FB /* Supporting Files */,
+			);
+			path = SamsInheritance;
+			sourceTree = "<group>";
+		};
+		87E256AB151F8BF4002224FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E256AC151F8BF4002224FB /* SamsInheritance-Info.plist */,
+				87E256AD151F8BF4002224FB /* InfoPlist.strings */,
+				87E256B0151F8BF4002224FB /* main.m */,
+				87E256B2151F8BF4002224FB /* SamsInheritance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E256C1151F8C70002224FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87E256C2151F8C89002224FB /* Character.h */,
+				87E256C3151F8C89002224FB /* Character.m */,
+				87E256CE151F8DFE002224FB /* Male.h */,
+				87E256CF151F8DFE002224FB /* Male.m */,
+				87E256D1151F8E0A002224FB /* Female.h */,
+				87E256D2151F8E0A002224FB /* Female.m */,
+				87E256CB151F8D47002224FB /* Diet.h */,
+				87E256CC151F8D47002224FB /* Diet.m */,
+				87E256C5151F8CD1002224FB /* Food.h */,
+				87E256C6151F8CD1002224FB /* Food.m */,
+				87E256C8151F8D10002224FB /* Liquid.h */,
+				87E256C9151F8D10002224FB /* Liquid.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E2569F151F8BF4002224FB /* SamsInheritance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E256BE151F8BF4002224FB /* Build configuration list for PBXNativeTarget "SamsInheritance" */;
+			buildPhases = (
+				87E2569C151F8BF4002224FB /* Sources */,
+				87E2569D151F8BF4002224FB /* Frameworks */,
+				87E2569E151F8BF4002224FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamsInheritance;
+			productName = SamsInheritance;
+			productReference = 87E256A0151F8BF4002224FB /* SamsInheritance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E25697151F8BF3002224FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Inlingua Vancouver Granville";
+			};
+			buildConfigurationList = 87E2569A151F8BF3002224FB /* Build configuration list for PBXProject "SamsInheritance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87E25695151F8BF3002224FB;
+			productRefGroup = 87E256A1151F8BF4002224FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E2569F151F8BF4002224FB /* SamsInheritance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E2569E151F8BF4002224FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E256AF151F8BF4002224FB /* InfoPlist.strings in Resources */,
+				87E256BB151F8BF4002224FB /* SamsInheritanceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E2569C151F8BF4002224FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E256B1151F8BF4002224FB /* main.m in Sources */,
+				87E256B5151F8BF4002224FB /* SamsInheritanceAppDelegate.m in Sources */,
+				87E256B8151F8BF4002224FB /* SamsInheritanceViewController.m in Sources */,
+				87E256C4151F8C89002224FB /* Character.m in Sources */,
+				87E256C7151F8CD1002224FB /* Food.m in Sources */,
+				87E256CA151F8D10002224FB /* Liquid.m in Sources */,
+				87E256CD151F8D47002224FB /* Diet.m in Sources */,
+				87E256D0151F8DFE002224FB /* Male.m in Sources */,
+				87E256D3151F8E0A002224FB /* Female.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87E256AD151F8BF4002224FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E256AE151F8BF4002224FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87E256B9151F8BF4002224FB /* SamsInheritanceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E256BA151F8BF4002224FB /* en */,
+			);
+			name = SamsInheritanceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87E256BC151F8BF4002224FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87E256BD151F8BF4002224FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E256BF151F8BF4002224FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamsInheritance/SamsInheritance-Prefix.pch";
+				INFOPLIST_FILE = "SamsInheritance/SamsInheritance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87E256C0151F8BF4002224FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamsInheritance/SamsInheritance-Prefix.pch";
+				INFOPLIST_FILE = "SamsInheritance/SamsInheritance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E2569A151F8BF3002224FB /* Build configuration list for PBXProject "SamsInheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E256BC151F8BF4002224FB /* Debug */,
+				87E256BD151F8BF4002224FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E256BE151F8BF4002224FB /* Build configuration list for PBXNativeTarget "SamsInheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E256BF151F8BF4002224FB /* Debug */,
+				87E256C0151F8BF4002224FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87E25697151F8BF3002224FB /* Project object */;
+}
